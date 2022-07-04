@@ -1,0 +1,32 @@
+courage glorious9:13 PM
+https://s.yimg.com/os/creatr-uploaded-images/2020-11/2ecd3e90-2811-11eb-bf2e-a5ff0cfc4b94
+courage glorious9:17 PM
+ app.get( "/", async ( req, res ) => {
+    res.send("try GET /filteredimage?image_url={{}}")
+  } );
+courage glorious9:22 PM
+ res.on("finish", async function () {
+      deleteLocalFiles([response]).catch((err)=>
+      res.status(422).send(err));
+    });
+courage glorious9:30 PM
+https://sourceforge.net/projects/libreoffice/?mtm_campaign=libreofficeNEL
+courage glorious9:32 PM
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf www/ || true",
+    "build": "npm run clean && tsc && copy package.json www\\package.json && mkdir www\\tmp\\ && cd www && zip -r Archive.zip . && cd ..",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts"
+  },
+ "engines": {
+    "node": "14"
+  }
+courage glorious9:36 PM
+deploy:
+  artifact: ./www/Archive.zip
+eb init
+courage glorious9:37 PM
+elastic beanstalk folder >> config.yml
+inside the config, add the code snippet below
+deploy:
+  artifact: ./www/Archive.zip
